@@ -1,0 +1,15 @@
+import Leader from '@civ-clone/core-civilization/Leader';
+import Civilization from '@civ-clone/core-civilization/Civilization';
+import Khmer from '../Khmer';
+
+export class SuryavarmanII extends Leader {
+  static civilization(): typeof Civilization {
+    return Khmer;
+  }
+
+  name(): string {
+    return 'Suryavarman II';
+  }
+}
+
+export default SuryavarmanII;
